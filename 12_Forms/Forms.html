@@ -3,9 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <title>Angular Forms</title>
+
+    <!--Include Angular-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+    <!--Style for table-->
+    <style>
+        /* Border style color and size for table, and elements */
+        table, th, td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        /* Every odd row */
+        table tr:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+        /* Every even row */
+        table tr:nth-child(even){
+            background-color: #ffffff;
+        }
+    </style>
 </head>
 <body>
+    <h2>Angular Forms</h2>
+    <!--Start of Angular App-->
+    <!--Uses controller ''-->
+    <div ng-app="mainApp" ng-controller="studentCtrl">
+
+        <!--Start of angular form-->
+        <form name="studentForm" novalidate>
+            <table border="0">
+                <!--firstName-->
+                <tr>
+                    <td>Enter first name:</td>
+                    <td>
+                        <input name="firstname" type="text" ng-model="firstName" required>
+                        <span style="color:red" ng-show="studentForm.firstname.$dirty && studentForm.firstname.$invalid">
+                            <span ng-show="studentForm.firstname.$error.required">First Name is required.</span>
+                        </span>
+                    </td>
+                </tr>
+                <!--lastName-->
+                <tr>
+                    <td>Enter last name:</td>
+                    <td><input name="lastname" type="text" ng-model="lastName" required>
+                        <span style="color:red" ng-show="studentForm.lastname.$dirty && studentForm.lastname.$invalid">
+                            <span ng-show="studentForm.firstname.$error.required">Last Name is required.</span>
+                        </span>
+                    </td>
+                </tr>
+                <!--Email-->
+                <tr>
+                    <td>Email:</td>
+                    <td><input name="email" type="email" ng-model="email" length="100" required>
+                        <!--When to show? When input is dirty and input is invalid-->
+                        <span style="color: red" ng-show="studentForm.email.$dirty && studentForm.email.$invalid">
+                        <!--Two errors; invalid email, Nothing entered-->
+                            <!--Email Required-->
+                            <span ng-show="studentForm.email.$error.required">Email Required.</span>
+                            <!--Invalid Email (Anything else)-->
+                            <span ng-show="studentForm.email.$error.email">Invalid Email</span>
+                        </span>
+                    </td>
+                </tr>
+                <!--Reset/Submit-->
+                <tr>
+                    <td><button ng-click="reset()">Reset</button></td>
+                    <td>
+                        <button ng-click="submit()" ng-disabled="studentForm.firstname.$dirty && studentForm.firstname.$invalid
+                                          || studentForm.lastname.$dirty && studentForm.lastname.$invalid
+                                          || studentForm.email.$dirty && studentForm.email.$invalid">Submit
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+
+    <!--Script For above stuff-->
+    <script>
+        var mainApp = angular.module('mainApp',[]);
+
+        // Controller
+        mainApp.controller('studentCtrl',function ($scope) {
+            // Reset
+            $scope.reset = function () {
+                $scope.firstName = "Tomas";
+                $scope.lastName = "Ochoa";
+                $scope.email = "ochoa.tom91@gmail.com";
+            };
+            $scope.reset();
+        });
+
+    </script>
 
 </body>
 </html>

@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Angular Includes</title>
+    <!--Include Angular-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+    <!--Style for border-->
+    <style>
+        /* For borders */
+        table, th, td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        /* For odd rows */
+        table tr:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+
+        /* For even rows */
+        table tr:nth-child(even){
+            background-color: #ffffff;
+        }
+    </style>
 </head>
 <body>
+    <h2>Using Angular Includes</h2>
+
+    <!--Start of angular app and uses controller 'studentCtrl'-->
+    <div ng-app="mainApp" ng-controller="studentCtrl">
+        <!--Include separate html files (main,subjects)-->
+        <div ng-include="'./assets/angular/main.html'"></div>
+        <div ng-include="'./assets/angular/subjects.html'"></div>
+    </div>
+
+    <!--Script for the app-->
+    <script>
+        // Variable for mainApp
+        var mainApp = angular.module('mainApp', []);
+
+        // Setup controller
+        mainApp.controller('studentCtrl', function ($scope) {
+            $scope.student = {
+                firstName: "Tomas",
+                lastName: "Ochoa",
+                fee: 500,
+
+                // Student's subjects
+                subjects: [
+                    {name: "Physics", marks: 80},
+                    {name: "Chemistry", marks: 90},
+                    {name: "Math", marks: 75},
+                    {name: "English", marks: 75},
+                    {name: "Cinema", marks: 60}
+                ],
+
+                // Function to print fullName
+                fullName: function () {
+                    var studentObj = $scope.student;
+                    return studentObj.firstName + " " + studentObj.lastName;
+                }
+            }
+        });
+    </script>
 
 </body>
 </html>

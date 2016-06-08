@@ -1,0 +1,14 @@
+<p>Subjects:</p>
+<table border="0">
+    <!--First Row-->
+    <tr>
+        <th>Name</th>
+        <th>Marks</th>
+    </tr>
+
+    <!--All other rows-->
+    <tr ng-repeat="subject in student.subjects">
+        <td>{{subject.name}}</td>
+        <td>{{subject.marks}}</td>
+    </tr>
+</table>

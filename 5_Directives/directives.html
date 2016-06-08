@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5) Directives</title>
+</head>
+<body>
+<!--Init and app example-->
+<div ng-app="" ng-init="countries=[{locale: 'en-US', name: 'United States'},
+                                   {locale: 'en-GB', name: 'United Kingdom'},
+                                   {locale: 'en-FR', name: 'France'}]">
+
+<!--model Example-->
+    <p>Enter your name: <input type="text" ng-model="name"></p>
+    <p>Hello <span ng-bind="name"></span>!</p>
+
+<!--ng-repeat Example-->
+    <p>List of Countries with locale: </p>
+    <ol>
+        <li ng-repeat="country in countries">
+            {{'Country: ' + country.name + ', Locale: ' + country.locale }}
+        </li>
+    </ol>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+
+</body>
+</html>

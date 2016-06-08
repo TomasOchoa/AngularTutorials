@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular JS Filters</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+</head>
+<body>
+
+    <h2>Sample Application Using Filters</h2>
+    <!--Begining of app-->
+    <!--Controlled by studentCtrl-->
+    <div ng-app="mainApp" ng-controller="studentCtrl">
+        <!--Original Table-->
+        <table border="0">
+            <tr>
+                <td>Enter first name: </td>
+                <td><input type="text" ng-model="student.firstName"></td>
+            </tr>
+
+            <tr>
+                <td>Enter last name: </td>
+                <td><input type="text" ng-model="student.lastName"></td>
+            </tr>
+
+            <tr>
+                <td>Enter fees: </td>
+                <td><input type="text" ng-model="student.fees"></td>
+            </tr>
+
+            <tr>
+                <td>Enter subject: </td>
+                <td><input type="text" ng-model="subjectName"></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!--New table with filters-->
+        <table border="0">
+            <!--Upper Case Filter-->
+            <tr>
+                <td>Name in upper Case:</td><td>{{student.fullName() | uppercase}}</td>
+            </tr>
+
+            <!--Lower Case Filter-->
+            <tr>
+                <td>Name in lower Case: </td><td>{{student.fullName() | lowercase}}</td>
+            </tr>
+
+            <!--Currency Case Filter-->
+            <tr>
+                <td>Fees: </td><td>{{student.fees | currency}}</td>
+            </tr>
+
+            <!--Filter & OrderBy Filter-->
+            <tr>
+                <td>Subject: </td>
+                <td>
+                    <ul>
+                        <li ng-repeat="subject in student.subjects | filter: subjectName | orderBy: 'marks' ">
+                            {{subject.name + ', marks: ' + subject.marks }}
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Script for above-->
+    <script>
+        // Declare a variable for the app
+        var mainApp = angular.module('mainApp', []);
+
+        // Setup controller
+        mainApp.controller('studentCtrl', function ($scope) {
+            // For student Scope
+            $scope.student = {
+                firstName: "Tomas",
+                lastName: "Ochoa",
+                fees: "500",
+
+                // Object inside student scope
+                subjects: [
+                    {name: "Physics", marks: 70},
+                    {name: "Chemistry", marks: 80},
+                    {name: "Math", marks: 65}
+                ],
+
+                // Function that returns concatenated full name
+                fullName: function () {
+                    // Declare a variable for the return object
+                    var studentObject = $scope.student;
+                    return studentObject.firstName + " " +  studentObject.lastName;
+                }
+            };
+        });
+    </script>
+
+</body>
+</html>

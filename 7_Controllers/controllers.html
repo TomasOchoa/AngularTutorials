@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Controllers</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+</head>
+<body>
+
+    <h2>AngularJS Sample Application</h2>
+
+    <!--Start App here-->
+        <!--This App is controlled by 'studentCtrl'-->
+    <div ng-app="myApp" ng-controller="studentCtrl">
+        <!--apply model for first name-->
+        Enter first name: <input type="text" ng-model="student.firstName"><br><br>
+
+        <!--apply model for last name-->
+        Enter last name: <input type="text" ng-model="student.lastName"><br>
+
+        <br>
+
+        <!--JavaScript function does logic to display data-->
+        <h3>You are entering: {{student.fullName()}}</h3>
+
+    </div>
+
+    <!--Set up the model and controller-->
+    <script>
+        var myApp = angular.module("myApp", []);
+
+        myApp.controller('studentCtrl', function ($scope) {
+            $scope.student = {
+                firstName: "Tomas",
+                lastName: "Ochoa",
+
+                fullName: function () {
+                    var studentObj;
+                    studentObj = $scope.student;
+                    return studentObj.firstName + " " + studentObj.lastName;
+                }
+            };
+        });
+    </script>
+
+</body>
+</html>

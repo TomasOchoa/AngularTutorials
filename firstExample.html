@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Example</title>
+
+    <!--Include Angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+</head>
+
+<!--Here Is where you point to the start of the AngularJS App-->
+    <!--Done soe with using ng-app-->
+    <!--Naming Convention is lowerCaseCammel-->
+<body ng-app="myApp">
+    <!--This is the VIEW-->
+        <!--ng-controller-->
+        <!--Tells Angular to use this as the view-->
+            <!--Naming Convention for controller is UpperCaseCammel-->
+    <div ng-controller="HelloController">
+        <h2>Welcome {{helloTo.title}} to the world of Tutorialspoint!</h2>
+    </div>
+
+    <!--Name, Dependencies-->
+    <script>
+        angular.module('myApp',[])
+                .controller('HelloController', function ($scope) {
+                    $scope.helloTo = {};
+                    $scope.helloTo.title = "AngularJS";
+                });
+    </script>
+
+</body>
+</html>

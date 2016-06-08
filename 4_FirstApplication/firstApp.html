@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Angular JS App</title>
+</head>
+
+
+<body>
+    <!--Step 2: Define the angular JS app-->
+    <div ng-app="">
+        <!--Step 3: Define the model-->
+        <p>Please enter your name: <input type="text" ng-model="name"></p>
+
+        <!--Step 4: Bind the value of above model-->
+        <p>Hello <span ng-bind="name"></span>!</p>
+    </div>
+
+    <!--Step 1: Load the framework-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+</body>
+</html>

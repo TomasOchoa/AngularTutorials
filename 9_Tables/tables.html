@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular JS Tables</title>
+
+    <!--Include Angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+    <!--Table Styling-->
+    <style>
+        table, th, td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table tr:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+
+        table tr:nth-child(even){
+            background-color: #ffffff;
+        }
+    </style>
+
+</head>
+<body>
+
+<h2>Angular JS Tables, Styling Tables, And 'ng-repeat'</h2>
+
+<!--Start of application-->
+    <!--Specify the controller-->
+<div ng-app="mainApp" ng-controller="studentCtrl">
+    <table border="0">
+        <!--First Name-->
+        <tr>
+            <td>First Name: </td>
+            <td><input type="text" ng-model="student.firstName"></td>
+        </tr>
+        <!--Last Name-->
+        <tr>
+            <td>Last Name: </td>
+            <td><input type="text" ng-model="student.lastName"></td>
+        </tr>
+        <!--Full Name-->
+        <tr>
+            <td>Name: </td>
+            <td>{{student.fullName()}}</td>
+        </tr>
+        <!--Subjects-->
+        <tr>
+            <td>Subject:</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>Marks</td>
+                    </tr>
+                    <!--Fill Table with name and marks-->
+                    <tr ng-repeat="subject in student.subjects">
+                        <td>{{subject.name}}</td>
+                        <td>{{subject.marks}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    // Variable to declare angular
+    var mainApp = angular.module('mainApp', []);
+
+    // Setup Controller
+    mainApp.controller('studentCtrl', function ($scope) {
+        $scope.student = {
+            firstName: "",
+            lastName: "",
+            fees: 500,
+            // Fill Subjects
+            subjects:[
+                {name: 'Physics', marks:70},
+                {name: 'Chemistry', marks:80},
+                {name: 'Math', marks:65},
+                {name: 'English', marks:75},
+                {name: 'Hindi', marks:67}
+            ],
+            // Fullname method
+            fullName: function(){
+                var studentObject = $scope.student;
+                return studentObject.firstName + " " + studentObject.lastName;
+            }
+        };
+    });
+</script>
+
+</body>
+</html>

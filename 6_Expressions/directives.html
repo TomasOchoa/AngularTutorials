@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Directives</title>
+</head>
+<body>
+
+    <!--Start of app-->
+    <!--Initialize with data-->
+    <div ng-app="" ng-init="quantity=1;cost=30;
+                            student={firstname:'Tomas',lastname:'Ochoa',rollno:101};
+                            marks=[80,90,75,73,60]">
+        <!--Using Numbers-->
+        <p>Expense on Books: {{cost * quantity}} Rs</p>
+
+        <!--Using String-->
+        <p>Hello {{student.firstname + " " + student.lastname}}!</p>
+
+        <!--Using Object-->
+        <p>Roll no: {{student.rollno}}</p>
+
+        <!--Using Array-->
+        <p>Marks(Math): {{marks[3]}}</p>
+
+    </div>
+
+    <!--Include Angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+</body>
+</html>

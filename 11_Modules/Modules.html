@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Modules</title>
+
+    <!--Include Angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+    <!--Include Modules-->
+    <script src="module/mainApp.js"></script>
+    <script src="module/studentCtrl.js"></script>
+
+    <!--Style For the table-->
+    <style>
+        /*Table outline*/
+        table, th, td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        /*Odd rows*/
+        table tr:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+
+        /*Even rows*/
+        table tr:nth-child(even){
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Angular Modules Example</h2>
+    <!--Start of angular app-->
+        <!--Uses controller 'studentCtrl'-->
+    <div ng-app="mainApp" ng-controller="studentCtrl">
+        <table>
+            <!--firstName-->
+            <tr>
+                <td>Enter first name:</td>
+                <td><input type="text" ng-model="student.firstName"></td>
+            </tr>
+            <!--lastName-->
+            <tr>
+                <td>Enter first name:</td>
+                <td><input type="text" ng-model="student.lastName"></td>
+            </tr>
+            <!--fullName-->
+            <tr>
+                <td>Name:</td>
+                <td>{{student.fullName()}}</td>
+            </tr>
+            <!--Subject-->
+            <tr>
+                <td>Subjects</td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Marks</th>
+                        </tr>
+                        <!--Use ng repeat to get table-->
+                        <tr ng-repeat="subject in student.subjects">
+                            <td>{{ subject.name }}</td>
+                            <td>{{ subject.marks }}</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>

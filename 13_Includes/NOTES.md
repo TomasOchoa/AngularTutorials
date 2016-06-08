@@ -11,4 +11,3 @@
     - **Angular JS**
         - Achieved in angular by embedding HTML pages within an HTML page that uses ng-include directive
         - To run example, html pages must be deployed to a web server
-    

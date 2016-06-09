@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Internalization (Browser Locale)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src = "https://code.angularjs.org/1.5.6/i18n/angular-locale_en-gb.js"></script>
+</head>
+<body>
+
+    <h2>Example Using Angular Locales</h2>
+
+    <h3>Using Great Britain Locale</h3>
+    <!--Remember, use pipe character when using filters-->
+    <div ng-app="mainApp" ng-controller="StudentController">
+        {{fees | currency}} <br/><br/>
+        {{admissionDate | date}} <br/><br/>
+        {{rollNo | number}}
+    </div>
+
+    <!--Script for app and controller-->
+    <script>
+        var mainApp = angular.module('mainApp', []);
+
+        mainApp.controller('StudentController', function ($scope) {
+            $scope.fees = 100;
+            $scope.admissionDate = new Date();
+            $scope.rollNo = 123.45;
+        });
+    </script>
+</body>
+</html>

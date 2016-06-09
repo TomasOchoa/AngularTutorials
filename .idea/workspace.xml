@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbcac871-f9ce-4568-8c7f-d588f60910fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20_Internalization/internalizationBrowserLocale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20_Internalization/internalizationUSLocale.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20_Internalization/internalization.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/19_CustomDirectives/NOTES.md" afterPath="$PROJECT_DIR$/19_CustomDirectives/NOTES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" afterPath="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20_Internalization/NOTES.md" afterPath="$PROJECT_DIR$/20_Internalization/NOTES.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="TutorialPoint.iws" />
@@ -25,14 +27,24 @@
     <favorites_list name="TutorialPoint" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5406213">
       <split-first>
         <leaf>
-          <file leaf-file-name="customDirectives.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/19_CustomDirectives/customDirectives.html">
+          <file leaf-file-name="internalizationBrowserLocale.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/20_Internalization/internalizationBrowserLocale.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="379">
-                  <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+                <state relative-caret-position="425">
+                  <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="internalizationUSLocale.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/20_Internalization/internalizationUSLocale.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
                   <folding />
                 </state>
               </provider>
@@ -44,7 +56,7 @@
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="NOTES.md" pinned="false" current-in-tab="true">
+              <file leaf-file-name="NOTES.md" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/19_CustomDirectives/NOTES.md">
                   <provider editor-type-id="MarkdownFxPreviewEditor">
                     <state />
@@ -53,6 +65,22 @@
                     <state split_layout="FIRST">
                       <first_editor relative-caret-position="228">
                         <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+                        <folding />
+                      </first_editor>
+                      <second_editor />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="NOTES.md" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/20_Internalization/NOTES.md">
+                  <provider editor-type-id="MarkdownFxPreviewEditor">
+                    <state />
+                  </provider>
+                  <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+                    <state split_layout="FIRST">
+                      <first_editor relative-caret-position="187">
+                        <caret line="11" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="95" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -71,8 +99,8 @@
                   </provider>
                   <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="211">
-                        <caret line="601" column="0" selection-start-line="601" selection-start-column="0" selection-end-line="601" selection-end-column="0" />
+                      <first_editor relative-caret-position="194">
+                        <caret line="610" column="93" selection-start-line="610" selection-start-column="93" selection-end-line="610" selection-end-column="93" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -116,7 +144,6 @@
         <option value="$PROJECT_DIR$/10_HTML_DOM/NOTES.md" />
         <option value="$PROJECT_DIR$/10_HTML_DOM/htmlDOM.html" />
         <option value="$PROJECT_DIR$/14_AJAX/ajax.html" />
-        <option value="$PROJECT_DIR$/20_Internalization/internalization.html" />
         <option value="$PROJECT_DIR$/11_Modules/NOTES.md" />
         <option value="$PROJECT_DIR$/10_HTML_DOM/module/mainApp.js" />
         <option value="$PROJECT_DIR$/10_HTML_DOM/module/studentCtrl.js" />
@@ -144,9 +171,13 @@
         <option value="$PROJECT_DIR$/17_Services/services.html" />
         <option value="$PROJECT_DIR$/18_DependecyInjection/NOTES.md" />
         <option value="$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/19_CustomDirectives/NOTES.md" />
         <option value="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" />
+        <option value="$PROJECT_DIR$/20_Internalization/NOTES.md" />
+        <option value="$PROJECT_DIR$/20_Internalization/internalization.html" />
+        <option value="$PROJECT_DIR$/20_Internalization/internalizationBrowserLocale.html" />
+        <option value="$PROJECT_DIR$/20_Internalization/internalizationUSLocale.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,7 +276,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="19_CustomDirectives" />
+              <option name="myItemId" value="20_Internalization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,13 +308,7 @@
       <recent name="Z:\Tomas Ochoa\Documents\Programing Documents\Practice Programming\AngularJS\TutorialPoint\16_Scopes" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.customDirectives.html">
-    <configuration default="false" name="views.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/15_Views/views.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="scopes.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/16_Scopes/scopes.html">
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="false" name="services.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/17_Services/services.html">
       <method />
     </configuration>
@@ -291,6 +316,12 @@
       <method />
     </configuration>
     <configuration default="false" name="customDirectives.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/19_CustomDirectives/customDirectives.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="internalizationBrowserLocale.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/20_Internalization/internalizationBrowserLocale.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="internalizationUSLocale.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/20_Internalization/internalizationUSLocale.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -352,19 +383,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.customDirectives.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.customDirectives.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.internalizationBrowserLocale.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.internalizationUSLocale.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.customDirectives.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.internalizationBrowserLocale.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.internalizationUSLocale.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.customDirectives.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
       </list>
     </recent_temporary>
   </component>
@@ -383,12 +414,12 @@
       <updated>1465313192098</updated>
       <workItem from="1465313193339" duration="16561000" />
       <workItem from="1465408785727" duration="69000" />
-      <workItem from="1465408864670" duration="31707000" />
+      <workItem from="1465408864670" duration="33410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48337000" />
+    <option name="totallyTimeSpent" value="50040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,14 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/17_Services/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -453,7 +476,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20_Internalization/internalization.html">
+    <entry file="file://$PROJECT_DIR$/20_Internalization/internalizationBrowserLocale.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
@@ -549,19 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8_Filters/NOTES.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="425">
-            <caret line="25" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8_Filters/filters.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -591,19 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20_Internalization/NOTES.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10_HTML_DOM/htmlDOM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -622,14 +619,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20_Internalization/internalization.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,20 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="211">
-            <caret line="601" column="0" selection-start-line="601" selection-start-column="0" selection-end-line="601" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/19_CustomDirectives/NOTES.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -943,9 +918,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/19_CustomDirectives/customDirectives.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_Filters/NOTES.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="425">
+            <caret line="25" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_Internalization/internalizationBrowserLocale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_Internalization/internalizationUSLocale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_Internalization/NOTES.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="95" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="194">
+            <caret line="610" column="93" selection-start-line="610" selection-start-column="93" selection-end-line="610" selection-end-column="93" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bbcac871-f9ce-4568-8c7f-d588f60910fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/15_Views/NOTES.md" afterPath="$PROJECT_DIR$/15_Views/NOTES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/15_Views/views.html" afterPath="$PROJECT_DIR$/15_Views/views.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/16_Scopes/NOTES.md" afterPath="$PROJECT_DIR$/16_Scopes/NOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/16_Scopes/scopes.html" afterPath="$PROJECT_DIR$/16_Scopes/scopes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="TutorialPoint.iws" />
@@ -28,11 +28,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="views.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/15_Views/views.html">
+          <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/17_Services/services.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
                   <folding />
                 </state>
               </provider>
@@ -45,14 +45,14 @@
           <split-first>
             <leaf>
               <file leaf-file-name="NOTES.md" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/15_Views/NOTES.md">
-                  <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+                <entry file="file://$PROJECT_DIR$/17_Services/NOTES.md">
+                  <provider editor-type-id="MarkdownFxPreviewEditor">
                     <state />
                   </provider>
-                  <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+                  <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="-1152">
-                        <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="71" />
+                      <first_editor relative-caret-position="0">
+                        <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -71,8 +71,8 @@
                   </provider>
                   <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="225">
-                        <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+                      <first_editor relative-caret-position="344">
+                        <caret line="348" column="0" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -116,7 +116,6 @@
         <option value="$PROJECT_DIR$/10_HTML_DOM/NOTES.md" />
         <option value="$PROJECT_DIR$/10_HTML_DOM/htmlDOM.html" />
         <option value="$PROJECT_DIR$/14_AJAX/ajax.html" />
-        <option value="$PROJECT_DIR$/16_Scopes/scopes.html" />
         <option value="$PROJECT_DIR$/17_Services/services.html" />
         <option value="$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html" />
         <option value="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" />
@@ -142,6 +141,8 @@
         <option value="$PROJECT_DIR$/15_Views/viewStudents.html" />
         <option value="$PROJECT_DIR$/15_Views/views.html" />
         <option value="$PROJECT_DIR$/15_Views/NOTES.md" />
+        <option value="$PROJECT_DIR$/16_Scopes/NOTES.md" />
+        <option value="$PROJECT_DIR$/16_Scopes/scopes.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -231,6 +232,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutorialPoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutorialPoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="17_Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -259,10 +274,7 @@
       <recent name="Z:\Tomas Ochoa\Documents\Programing Documents\Practice Programming\AngularJS\TutorialPoint\16_Scopes" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.views.html">
-    <configuration default="false" name="Modules.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/11_Modules/Modules.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.scopes.html">
     <configuration default="false" name="Forms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/12_Forms/Forms.html">
       <method />
     </configuration>
@@ -273,6 +285,9 @@
       <method />
     </configuration>
     <configuration default="false" name="views.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/15_Views/views.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="scopes.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/16_Scopes/scopes.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -334,19 +349,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Modules.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Forms.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.includes.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.testAjax.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Forms.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.includes.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.testAjax.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.testAjax.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.includes.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Forms.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Modules.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.testAjax.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.includes.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Forms.html" />
       </list>
     </recent_temporary>
   </component>
@@ -365,18 +380,18 @@
       <updated>1465313192098</updated>
       <workItem from="1465313193339" duration="16561000" />
       <workItem from="1465408785727" duration="69000" />
-      <workItem from="1465408864670" duration="18678000" />
+      <workItem from="1465408864670" duration="20740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35308000" />
+    <option name="totallyTimeSpent" value="37370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1076759" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1076759" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -703,22 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17_Services/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_Scopes/scopes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13_Includes/test.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -785,20 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17_Services/NOTES.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/19_CustomDirectives/NOTES.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -848,20 +833,6 @@
         <state relative-caret-position="408">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_Scopes/NOTES.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -917,14 +888,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16_Scopes/scopes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_Services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_Scopes/NOTES.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="245">
+            <caret line="48" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_Services/NOTES.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="225">
-            <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+          <first_editor relative-caret-position="344">
+            <caret line="348" column="0" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

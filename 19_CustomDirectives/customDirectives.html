@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Customizing Angular Directives</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
 </head>
 <body>
+    <h2>Custom Angular JS Directive Examples</h2>
 
+    <!--Start of App with controller-->
+    <div ng-app="mainApp" ng-controller="StudentController">
+        <!--Custom element for students-->
+        <student name="Tomas"></student><br/>
+        <student name="Javier"></student>
+    </div>
+    <!--Include Angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <!--Script to handle above-->
+    <script>
+        var mainApp = angular.module("mainApp", []);
+
+        // Define custom tag with directive method
+        mainApp.directive('student', function () {
+            // Define the directive object
+            var directive = {};
+
+            // Restrict the directive to elements. E signifies that the directive is an Element directive
+            directive.restrict = 'E';
+
+            // Replace the complete element with a template's text
+            directive.template = 'Student: <strong>{{student.name}}</strong>, Roll No: <strong>{{student.rollno}}</strong>'
+
+            // Use scope to distinguish each student element based on criteria
+            directive.scope = {
+                student: '=name'
+            };
+
+            // During application initialization, compile is called.
+            // It is called once by AngularJS when the html page is loaded.
+            directive.compile = function (element, attributes) {
+                element.css('border', '1px solid #cccccc');
+
+                //linkFunction is linked with each element with scope to get the element specific data.
+                var linkFunction = function ($scope,element,attributes) {
+                    element.html('Student: <strong>' + $scope.student.name + '</strong>, Roll No:<strong>' + $scope.student.rollno + '</strong><br/>');
+                    element.css('background-color', '#ff00ff');
+                };
+                return linkFunction;
+            };
+            return directive;
+        });
+
+        // Define the controller to update the scope for the directive
+        // Here, the value of the name attribute is used as the scope's child
+        mainApp.controller('StudentController', function ($scope) {
+            $scope.Tomas = {};
+            $scope.Tomas.name = "Tomas Ochoa";
+            $scope.Tomas.rollno = 5;
+
+            $scope.Javier = {};
+            $scope.Javier.name = "Javier Ochoa";
+            $scope.Javier.rollno = 1;
+        });
+
+    </script>
 </body>
 </html>

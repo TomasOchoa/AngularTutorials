@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbcac871-f9ce-4568-8c7f-d588f60910fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/18_DependecyInjection/NOTES.md" afterPath="$PROJECT_DIR$/18_DependecyInjection/NOTES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html" afterPath="$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/19_CustomDirectives/NOTES.md" afterPath="$PROJECT_DIR$/19_CustomDirectives/NOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" afterPath="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="TutorialPoint.iws" />
@@ -27,11 +28,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="dependencyInjection.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html">
+          <file leaf-file-name="customDirectives.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/19_CustomDirectives/customDirectives.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
+                <state relative-caret-position="379">
+                  <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -44,14 +45,14 @@
           <split-first>
             <leaf>
               <file leaf-file-name="NOTES.md" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/18_DependecyInjection/NOTES.md">
+                <entry file="file://$PROJECT_DIR$/19_CustomDirectives/NOTES.md">
                   <provider editor-type-id="MarkdownFxPreviewEditor">
                     <state />
                   </provider>
                   <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="262">
-                        <caret line="125" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+                      <first_editor relative-caret-position="228">
+                        <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -70,8 +71,8 @@
                   </provider>
                   <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="177">
-                        <caret line="530" column="23" selection-start-line="530" selection-start-column="23" selection-end-line="530" selection-end-column="23" />
+                      <first_editor relative-caret-position="211">
+                        <caret line="601" column="0" selection-start-line="601" selection-start-column="0" selection-end-line="601" selection-end-column="0" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -115,7 +116,6 @@
         <option value="$PROJECT_DIR$/10_HTML_DOM/NOTES.md" />
         <option value="$PROJECT_DIR$/10_HTML_DOM/htmlDOM.html" />
         <option value="$PROJECT_DIR$/14_AJAX/ajax.html" />
-        <option value="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" />
         <option value="$PROJECT_DIR$/20_Internalization/internalization.html" />
         <option value="$PROJECT_DIR$/11_Modules/NOTES.md" />
         <option value="$PROJECT_DIR$/10_HTML_DOM/module/mainApp.js" />
@@ -143,8 +143,10 @@
         <option value="$PROJECT_DIR$/17_Services/NOTES.md" />
         <option value="$PROJECT_DIR$/17_Services/services.html" />
         <option value="$PROJECT_DIR$/18_DependecyInjection/NOTES.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/19_CustomDirectives/NOTES.md" />
+        <option value="$PROJECT_DIR$/19_CustomDirectives/customDirectives.html" />
       </list>
     </option>
   </component>
@@ -243,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="18_DependecyInjection" />
+              <option name="myItemId" value="19_CustomDirectives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,10 +277,7 @@
       <recent name="Z:\Tomas Ochoa\Documents\Programing Documents\Practice Programming\AngularJS\TutorialPoint\16_Scopes" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.dependencyInjection.html">
-    <configuration default="false" name="testAjax.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/14_AJAX/testAjax.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.customDirectives.html">
     <configuration default="false" name="views.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/15_Views/views.html">
       <method />
     </configuration>
@@ -289,6 +288,9 @@
       <method />
     </configuration>
     <configuration default="false" name="dependencyInjection.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/18_DependecyInjection/dependencyInjection.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="customDirectives.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TutorialPoint/19_CustomDirectives/customDirectives.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -350,19 +352,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.testAjax.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.customDirectives.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.testAjax.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.customDirectives.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.dependencyInjection.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.services.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scopes.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.views.html" />
       </list>
     </recent_temporary>
   </component>
@@ -381,12 +383,12 @@
       <updated>1465313192098</updated>
       <workItem from="1465313193339" duration="16561000" />
       <workItem from="1465408785727" duration="69000" />
-      <workItem from="1465408864670" duration="28100000" />
+      <workItem from="1465408864670" duration="31707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44730000" />
+    <option name="totallyTimeSpent" value="48337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -631,14 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19_CustomDirectives/customDirectives.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11_Modules/Modules.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -777,20 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19_CustomDirectives/NOTES.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_angularjs_angular.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -911,17 +891,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="177">
-            <caret line="530" column="23" selection-start-line="530" selection-start-column="23" selection-end-line="530" selection-end-column="23" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -939,10 +913,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18_DependecyInjection/dependencyInjection.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="211">
+            <caret line="601" column="0" selection-start-line="601" selection-start-column="0" selection-end-line="601" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_CustomDirectives/NOTES.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="228">
+            <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19_CustomDirectives/customDirectives.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
+        <state relative-caret-position="379">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -6,6 +6,48 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
 </head>
 <body>
+    <h2>Angular Services Example</h2>
+    <!--Start app and it's controller-->
+    <!--Services required: multiply, square-->
+    <div ng-app="mainApp" ng-controller="CalcController">
+        <!--Request a number to square-->
+        <p>Enter a number: <input type="number" ng-model="number">
+            <!--Subscript achieved with <sup> element-->
+            <button ng-click="square()">X<sup>2</sup></button>
+        </p>
+        <!--Result-->
+        <p>Result: {{result}}</p>
+    </div>
+
+    <!--Script for mainApp-->
+    <script>
+        var mainApp = angular.module('mainApp', []);
+
+    // Make two services, one using factory method, one using service method
+        // Factory Method (MathService)
+        mainApp.factory('MathService', function () {
+            var factory = {};
+
+            factory.multiply = function (a, b) {
+                return a * b;
+            };
+            return factory;
+        });
+
+        // Service Method (CalcService)
+        mainApp.service('CalcService', function (MathService) {
+            this.square = function (a) {
+                return MathService.multiply(a,a);
+            }
+        });
+
+        // Setup the controller to square number from input
+        mainApp.controller('CalcController',function ($scope, CalcService) {
+            $scope.square = function () {
+                $scope.result = CalcService.square($scope.number);
+            }
+        });
+    </script>
 
 </body>
 </html>

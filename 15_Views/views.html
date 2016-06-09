@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <title>Angular Views</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <!--Include Angular-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+    <!--Include Angular routes-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-route.js"></script>
 </head>
 <body>
+    <h2>AngularJS Views Example</h2>
+    <!--Start of Angular-->
+    <div ng-app="mainApp">
+        <p><a href="#addStudent">Add Student</a></p>
+        <p><a href="#viewStudents">View Students</a></p>
 
+        <!--Place holder for view-->
+        <div ng-view></div>
+
+        <!--Include template for add student with id-->
+        <script type="text/ng-template" id="addStudent.html">
+            <h2>Add Student</h2>
+            {{message}}
+        </script>
+
+        <!--Include template for view students with id-->
+        <script type="text/ng-template" id="viewStudents.html">
+            <h2>View Student</h2>
+            {{message}}
+        </script>
+
+    </div>
+
+    <!--Declare main app module and include it's dependency (in this case 'ng-route')-->
+    <!--Must make separate controller for each view-->
+    <script>
+        var mainApp = angular.module("mainApp",['ngRoute']);
+
+        // Config for main app, uses params (service, callback function)
+        mainApp.config(['$routeProvider', function ($routeProvider) {
+            // Logic for the different possible views
+            $routeProvider.
+
+            // When /addStudent view
+            when('/addStudent', {
+                templateUrl: 'addStudent.html',
+                controller: 'AddStudentController'
+            }).
+
+            // When /viewStudents view
+            when('/viewStudents', {
+                templateUrl: 'viewStudents.html',
+                controller: 'ViewStudentsController'
+            }).
+
+            // Default view
+            otherwise({
+                redirectTo: '/addStudent'
+            });
+        }]);
+
+
+        // Controllers
+            // AddStudentController
+            mainApp.controller('AddStudentController',function ($scope) {
+                // Send a message to this scope
+                $scope.message = "This page will be used to display add student form";
+            });
+
+            // ViewStudentsController
+            mainApp.controller('ViewStudentsController',function ($scope) {
+                $scope.message = "This page will be used to display all the students";
+            });
+
+    </script>
 </body>
 </html>

@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Angular Dependency Injection</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
 </head>
 <body>
+    <h2>Angular Dependency Injection Example</h2>
 
+    <!--Start App with controller-->
+    <div ng-app="mainApp" ng-controller="CalcController">
+        <p>
+            Enter a number: <input type="number" ng-model="number">
+            <button ng-click="square()">X<sup>2</sup></button>
+        </p>
+        <p>Result:{{result}}</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+    <script>
+        var mainApp = angular.module('mainApp', []);
+
+        // Config
+        mainApp.config(function($provide) {
+            $provide.provider('MathService', function(){
+                this.$get = function(){
+                    var factory = {};
+
+                    factory.multiply = function(a, b){
+                        return a * b;
+                    };
+                    return factory;
+                };
+            });
+        });
+
+        // value
+        mainApp.value('defaultInput', 5);
+
+        // factory
+        mainApp.factory('MathService', function () {
+            var factory = {};
+
+            factory.multiply = function(a,b){
+                return a*b;
+            };
+            return factory;
+        });
+
+        // service
+        mainApp.service('CalcService', function (MathService) {
+            this.square = function (a) {
+                return MathService.multiply(a,a);
+            }
+        });
+
+        // Controller
+        mainApp.controller('CalcController', function ($scope, CalcService, defaultInput) {
+            $scope.number = defaultInput;
+            $scope.result = CalcService.square($scope.number);
+
+            $scope.square = function () {
+                $scope.result = CalcService.square($scope.number);
+            }
+        });
+    </script>
 </body>
 </html>

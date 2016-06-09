@@ -1,3 +1,5 @@
+These tutorials are all from [Tutorials Point](http://www.tutorialspoint.com/angularjs/index.htm)
+
 # 1) Overview
 
 <!------------------------------------------------------------>

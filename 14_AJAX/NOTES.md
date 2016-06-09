@@ -20,3 +20,8 @@
     - Call sets response to it's property students
     - *students* model can be used to draw tables in html
     
+**Note** 
+- *.success* is deprecated
+- Read up on alternative
+
+    
